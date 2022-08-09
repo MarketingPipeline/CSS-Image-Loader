@@ -1,10 +1,30 @@
-/*
-CSS Image Loader - a pure CSS image loader without JS or extra HTML element
+/*=============================================================================
+    CSS Image Loader - a pure CSS image loader without JS or extra HTML element
+    Created by github.com/MarketingPipeline
+===============================================================================*/
 
-Created by github.com/MarketingPipeline
-*/
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/*==============================
+        RESETS
+===============================*/
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  overflow-x: hidden;
+  text-align: center;
+  line-height: 1.7;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, p {
+  margin: 10px 0;
 }
 
 img {
@@ -14,6 +34,8 @@ TO-DO: Fix the sizes so this can be applied to other stylesheets without a prope
   position: relative;
   display: block;
   max-width: 100%;
+  width: 100%;
+  object-fit: contain;
   height: auto;
   min-height: 3rem;
   /* background-color shows in the reserved space before image loads */
