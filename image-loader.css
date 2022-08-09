@@ -5,7 +5,6 @@ Created by github.com/MarketingPipeline
 
 Version: 1.0.1
 */
-
 .imgLoader {
   position: relative;
   display: block;
@@ -21,16 +20,15 @@ Version: 1.0.1
 .imgLoader:after {
   content: '';
   position: absolute;
- 
-  top: calc(7% - 2rem);
+  max-width: 4rem;
+  max-height: 4rem;
+  top: calc(50% - 2rem);
   right: 0;
   bottom: 0;
-  left: calc(4% - 2rem);
+  left: calc(50% - 2rem);
   background-color: #ccc;  
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='545.79' height='545.79' viewBox='0 0 144.407 144.407'%3E%3Cg transform='matrix(6.56831 0 0 6.56831 -603.38518 -966.29009)'%3E%3Cpath d='M98.902 149.99l2.093 2.093h8.487c.823 0 1.292.206 1.584.498s.496.759.496 1.582v8.486l1.834 1.834c.175-.512.259-1.076.259-1.666v-8.654c0-1.203-.346-2.298-1.111-3.063s-1.86-1.111-3.063-1.111zm-2.784.043c-.919.114-1.741.457-2.352 1.068-.765.765-1.109 1.86-1.109 3.063v8.654c0 1.203.345 2.297 1.109 3.062s1.862 1.109 3.064 1.109h12.652c1.049 0 2.017-.263 2.754-.838l-1.505-1.505c-.288.155-.686.251-1.249.251H96.83c-.823 0-1.292-.206-1.584-.498s-.498-.759-.498-1.582v-8.654c0-.823.205-1.29.498-1.582s.761-.498 1.584-.498h1.337z'/%3E%3Ccircle cx='108.403' cy='155.353' r='1.25'/%3E%3Cpath d='M93.277 147.113l-1.414 1.414 10.671 10.591-1.659 2.261-.237-.276-1.536-1.79-1.536 1.79-1.536 1.79h3.073.474 2.599 1.665 2.39l6.205 6.206 1.414-1.414-20.57-20.572z'/%3E%3C/g%3E%3C/svg%3E");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
-
-
