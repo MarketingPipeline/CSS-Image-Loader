@@ -5,11 +5,9 @@
 <img height=350 alt="Pure CSS Image Loader" src="https://capsule-render.vercel.app/api?type=waving&color=c4a2bd&height=300&section=header&text=CSS%20Image%20Loader&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=A%20pure%20CSS%20image%20%loader!&descAlignY=60&descAlign=50"></img></a>
 
 <div align="center">
-Add a image loader &amp; image load error (without adding an HTML element or using JS). Just pure CSS!
-  
-> Note: this is just a proof of concept as of right now & need's some help to be ready to add into your next project or framework etc.
 
-   <br>
+ <b>Add a image loader &amp; image load error (without adding an HTML element or using JS). Just pure CSS!</b>  
+
   <small> <b><i>Show your support!</i> </b></small>
   <br>
    <a href="https://github.com/MarketingPipeline/CSS-Image-Loader">
@@ -22,11 +20,11 @@ Add a image loader &amp; image load error (without adding an HTML element or usi
  </div>
 
 
+> Note: this is just a proof of concept as of right now & need's some help to be ready to add into your next project or framework etc. For details of known issues / things that need help with read the [to-do](TODO.md) page  
+
 
 ## Example
 
-  
-For details of known issues / things that need help with read the [to-do](TODO.md) page  
 
 - **CSS Image Loader**  
   [Source](https://github.com/MarketingPipeline/CSS-Image-Loader/blob/main/image-loader.css),
