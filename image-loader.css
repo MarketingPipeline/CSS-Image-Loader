@@ -44,6 +44,5 @@ TO-DO: Fix the size of the error image
   bottom: 0;
   left: 0;
   padding: 1rem;
-  height:100%;
   background-color: hsl(220, 20%, 90%);
 }
