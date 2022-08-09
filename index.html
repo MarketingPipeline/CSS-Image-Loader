@@ -1,11 +1,31 @@
 <link href="image-loader.css" rel="stylesheet">
-<!--
+<style>
+  
+/* This is just to center the Demo image content in the page */
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem
+}
+div {
+  width: 45%;
+}
+</style>  
+<div>
+  <!--
 Delayed loading image
 -->
-<h1>Delayed image loading example (Valid Image SRC)</h1>
-<p>Scroll down to see the invalid source example</p>
-<img src="http://www.deelay.me/3000/https://codetheweb.blog/assets/img/posts/css-advanced-background-images/bg-size-cover.png" width="4000" height="3000" alt="Valid Delayed Source">
+  <h1>Delayed image loading example (Valid Image SRC)</h1>
+  <img src="https://www.deelay.me/2000/https://pixelfed-prod.nyc3.digitaloceanspaces.com/public/m/_v2/428283294983418092/2f76a232a-f08599/2yo79Y4C7tET/5rcb7cFj0PtfTn4zSNJtscxsDbX1VWEiWxxGlHcp.jpg" class="imgLoader" alt="test - i.j wallpaper 2018" width="1920" height="1080">
+</div>
 
-
-<h1>Image SRC not found example</h1>
-<img src="https://source.unsplashs.com/4000x300ss0/?burger" width="4000" height="3000" alt="Invalid Source">
+<div>
+  <h1>Image SRC not found example</h1>
+  <img src="https://www.loremipsum.loremipsum" class="imgLoader" alt="test - no image" width="1920" height="1080">
+</div>
