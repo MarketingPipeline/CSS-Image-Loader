@@ -6,7 +6,6 @@ Created by github.com/MarketingPipeline
 Version: 1.0.1
 */
 
-
 .imgLoader {
   position: relative;
   display: block;
@@ -23,7 +22,7 @@ Version: 1.0.1
   content: '';
   position: absolute;
  
-  top: calc(7.3% - 2rem);
+  top: calc(7% - 2rem);
   right: 0;
   bottom: 0;
   left: calc(4% - 2rem);
@@ -33,3 +32,5 @@ Version: 1.0.1
   background-position: center;
   background-repeat: no-repeat;
 }
+
+
