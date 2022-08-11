@@ -4,6 +4,9 @@ CSS Image Loader - a pure CSS image loader without JS or extra HTML element
 Created by github.com/MarketingPipeline
 
 Version: 1.0.2
+
+WARNING: The fallback error image will not show on webkit devices & you should provide a fallback for these devices using a onerror etc.
+
 */
 img {
  position: relative;
@@ -35,6 +38,9 @@ img {
 /*
 Pseudoelements will only show if the image fails to load
 This means we can use them to show a nice image overlay 
+
+WARNING: ::after is not supported for webkit devices. You should provide the fall back image source using onerror etc. 
+
 */
 img::after {
   content: ' ';
