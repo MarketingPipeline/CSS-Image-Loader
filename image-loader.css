@@ -37,7 +37,9 @@ img {
 /*
 Pseudoelements will only show if the image fails to load
 This means we can use them to show a nice image overlay 
+
 WARNING: ::after is not supported for webkit devices. You should provide the fall back image source using onerror etc. 
+
 */
 img::after {
   content: ' ';
