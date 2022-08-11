@@ -20,7 +20,7 @@
  </div>
 
 
-> Note: this is just a proof of concept as of right now & need's some help to be ready to add into your next project or framework etc. For details of known issues / things that need help with read the [to-do](TODO.md) page  
+> Note: this is just a proof of concept. You should still provide a fallback source for your images using an <code>onerror</code> etc. As iOS / Webkit devices do NOT currently support the CSS attribute <code>::before</code> needed for the fallback error image. 
 
 
 ## Example
