@@ -4,7 +4,6 @@ CSS Image Loader - a pure CSS image loader without JS or extra HTML element
 Created by github.com/MarketingPipeline
 
 Version: 1.0.2
-
 WARNING: The fallback error image will not show on webkit devices & you should provide a fallback for these devices using a onerror etc.
 
 */
@@ -58,4 +57,3 @@ img::after {
   background-position: center;
   background-repeat: no-repeat;
 }
-
