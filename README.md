@@ -6,7 +6,7 @@
 
 <div align="center">
 
- <b>Add a image loader &amp; image load error (without adding an HTML element or using JS). Just pure CSS!</b>
+ <b>Add a image loader &amp; image load error (without adding an HTML element or using JS). Just pure CSS!</b>  
 
   <small> <b><i>Show your support!</i> </b></small>
   <br>
@@ -16,20 +16,20 @@
   <a href="https://github.com/MarketingPipeline/CSS-Image-Loader/fork">
     <img title="Fork on GitHub" src="https://img.shields.io/github/forks/MarketingPipeline/CSS-Image-Loader.svg?style=social&label=Fork">
   </a>
-   </p>
+   </p>  
  </div>
 
 
-> Note: this is just a proof of concept. You should still provide a fallback source for your images using an <code>onerror</code> etc. As iOS / Webkit devices do NOT currently support the CSS attribute <code>::before</code> needed for the fallback error image.
+> Note: this is just a proof of concept. You should still provide a fallback source for your images using an <code>onerror</code> etc. As iOS / Webkit devices do NOT currently support the CSS attribute <code>::before</code> needed for the fallback error image. 
 
 
 ## Example
 
 
-- **CSS Image Loader**
+- **CSS Image Loader**  
   [Source](https://github.com/MarketingPipeline/CSS-Image-Loader/blob/main/image-loader.css),
-  [Demo](https://marketingpipeline.github.io/CSS-Image-Loader/index.html)
-
+  [Demo](https://marketingpipeline.github.io/CSS-Image-Loader/index.html) 
+  
 
 
 
